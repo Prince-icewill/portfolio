@@ -1,0 +1,265 @@
+.projects-con{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.work1{
+    height: 300px;
+}
+
+.work4{
+    height: 300px;
+}
+
+.first-pro{
+    margin-left: 135px;
+    background-color: rgb(119, 113, 113);
+    height: 600px;
+    width: 450px;
+}
+
+.second-pro{
+   margin-left: 100px;
+   background-color: rgb(119, 113, 113);
+}
+
+.neurospark{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: black;
+}
+
+.note{
+    padding-left: 10px;
+    max-width: 500px;
+    padding-top: 10px;
+    color: black;
+}
+
+.Ketus{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: black;
+}
+
+.ketus-note{
+    max-width: 350px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: black;
+}
+
+.live-demo{
+  display: inline-block;
+  height: 50px;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+  padding-top: 12px;
+  margin-top: 90px;
+  margin-left: 10px;
+}
+
+.live-demo:hover{
+    background-color: var(--title-color-dark);
+  }
+
+.live-Demo{
+    display: inline-block;
+    height: 50px;
+    background-color: var(--title-color);
+    color: var(--container-color);
+    padding: 1.25rem 2rem;
+    border-radius: 1rem;
+    font-weight: var(--font-medium);
+    padding-top: 12px;
+    margin-top: 120px;
+    margin-left: 10px;
+}
+
+.live-Demo:hover{
+    background-color: var(--title-color-dark);
+  }
+
+  
+@media screen and (max-width: 992px) {
+    .first-pro{
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+        height: 790px;
+    }
+   }
+
+   @media screen and (max-width: 820px){
+    .live-Demo{
+        margin-top: 140px;
+        padding-top: 13px;
+       }
+
+       .live-demo{
+        margin-top: 70px;
+    }
+
+   }
+
+   @media screen and (max-width: 768px){
+    .live-Demo{
+        margin-top: 140px;
+        padding-top: 13px;
+       }
+
+       .live-demo{
+        margin-top: 35px;
+    }
+
+   }
+
+   @media screen and (max-width: 756px){
+    .live-Demo{
+        margin-top: 140px;
+        padding-top: 13px;
+       }
+   }
+   
+   @media screen and (max-width: 576px) {
+    .first-pro{
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+        height: 790px;
+    }
+
+    .second-pro{
+        margin-left: 60px;
+    }
+
+    .live-demo{
+        margin-top: 120px;
+        padding-top: 13px;
+       }
+
+    .live-Demo{
+        margin-top: 250px;
+        padding-top: 13px;
+       }
+   }
+
+   @media screen and (max-width: 540px) {
+    .first-pro{
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+        height: 700px;
+    }
+
+    .second-pro{
+        margin-left: 60px;
+    }
+
+    .live-Demo{
+        margin-top: 165px;
+        padding-top: 10px;
+       }
+
+       .live-demo{
+        padding-top: 10px;
+       }
+   }
+
+   @media screen and (max-width: 430px) {
+    .first-pro{
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+        height: 730px;
+    }
+
+    .live-Demo{
+        margin-top: 192px;
+        padding-top: 10px;
+       }
+
+       .live-demo{
+        margin-top: 35px;
+        padding-top: 10px;
+       }
+   }
+
+   @media screen and (max-width: 414px) {
+    .live-Demo{
+        margin-top: 190px;
+        padding-top: 10px;
+       }
+
+       .live-demo{
+        padding-top: 10px;
+        margin-top: 30px;
+       }
+   }
+
+   @media screen and (max-width: 412px) {
+    .first-pro{
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+        height: 730px;
+    }
+   }
+
+   @media screen and (max-width: 390px) {
+    .first-pro{
+     grid-template-columns: 1fr;
+     margin-left: 10px;
+     height: 790px;
+    }
+ 
+    .live-demo{
+     margin-top: 65px;
+     padding-top: 2px;
+     margin-right: 10px;
+    }
+ 
+    .live-Demo{
+     margin-top: 250px;
+     padding-top: 2px;
+     margin-right: 10px;
+    }
+    }
+
+   @media screen and (max-width: 375px) {
+    .live-Demo{
+        margin-top: 249px;
+        padding-top: 1px;
+        margin-right: 10px;
+       }
+
+       .live-demo{
+        padding-top: 1px;
+        margin-right: 10px;
+        margin-top: 40px;
+       }
+   }
+
+   @media screen and (max-width: 360px) {
+    .first-pro{
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+        height: 780px;
+    }
+   }
+   
+   @media screen and (max-width: 350px) {
+   .first-pro{
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+    height: 790px;
+   }
+
+   .live-demo{
+    padding-top: 2px;
+   }
+
+   .live-Demo{
+    margin-top: 250px;
+    padding-top: 2px;
+   }
+   }
