@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import project1 from "../assets/project1.png"
-import Work4 from "../assets/Work4.jpg";
+ import work4 from "../../src/assets/work4.png"
 
 const Projects = () => {
   return (
@@ -22,7 +22,7 @@ const Projects = () => {
         </div>
 
         <div className="second-pro">
-            <img src={Work4} className="work4" alt="" />
+            <img src={work4} className="work4" alt="" />
             <h1 className="Ketus">KeAutos</h1>
             <h3 className="ketus-note">
                 KeAtus deals on selling of Automobile vehicles.
