@@ -1,5 +1,5 @@
 import React from 'react';
-import stackImage from "../assets/stackImage.png";
+import stackImage from "../public/stackImage.png";
 
 const Frontend = () => {
   return (
@@ -50,7 +50,7 @@ const Frontend = () => {
             </div>
         </div>
         <div className="stockImage">
-        <img src={stackImage} alt="" width='300px'/>
+        <img src="/assets/stackImage.png" alt="Stack Image" width='300px'/>
         </div>
         </div>
         
