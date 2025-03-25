@@ -50,7 +50,7 @@ const Frontend = () => {
             </div>
         </div>
         <div className="stockImage">
-        <img src="/assets/stackImage.png" alt="Stack Image" width='300px'/>
+        <img src={stackImage} alt="Stack Image" width='300px'/>
         </div>
         </div>
         
