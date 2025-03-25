@@ -1,5 +1,5 @@
 import React from 'react';
-import stackImage from "/src/assets/stackImage.png";
+import stackImage from "../../src/assets/stackImage.png";
 
 const Frontend = () => {
   return (
