@@ -33,7 +33,7 @@ const Footer = () => {
             className="footer_social-link"
             target="_blank"
           >
-            <i class="bx bxl-twitter"></i>
+            <i className="bx bxl-twitter"></i>
           </a>
 
           <a
@@ -41,11 +41,11 @@ const Footer = () => {
             className="footer_social-link"
             target="_blank"
           >
-            <i class="bx bxl-instagram"></i>
+            <i className="bx bxl-instagram"></i>
           </a>
 
           <a href="" className="footer_social-link" target="_blank">
-            <i class="bx bxl-linkedin"></i>
+            <i className="bx bxl-linkedin"></i>
           </a>
         </div>
 
