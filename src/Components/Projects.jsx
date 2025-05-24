@@ -27,7 +27,7 @@ const Projects = () => {
             <h3 className="ketus-note">
                 KeAtus deals on selling of Automobile vehicles.
             </h3>
-            <a href="" className="live-Demo">Live Demo</a>
+            <a href="https://ke-atus.vercel.app/" className="live-Demo">Live Demo</a>
         </div>
       </div>
     </section>

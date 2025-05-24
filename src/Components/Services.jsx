@@ -18,7 +18,7 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow services_icon"></i>
             <h3 className="services_title">
-               UI / UX <br />Designer
+            Front-End<br />Developer
             </h3>
           </div>
 
@@ -31,42 +31,36 @@ const Services = () => {
             <div className="services_modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services_modal-close"></i>
 
-              <h3 className="services_modal-title">UI / UX Designer</h3>
+              <h3 className="services_modal-title">Front-End Developer</h3>
               <p className="services_modal-description">
-                Still a beginner hoping to have years of experience. And provide
-                quality works for clients and companies.
+              Passionate about building responsive, user-friendly websites with clean code and modern frameworks. As a dedicated student, I’m honing my skills to deliver high-quality digital experiences for clients and companies.
               </p>
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                    I develop web pages with UI / UX user interface.
-                  </p>
-                </li>
-
-                <li className="services_modal-service">
-                  <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">Web Page Development.</p>
-                </li>
-
-                <li className="services_modal-service">
-                  <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">
-                    I create UX element interactions.
+                  Web Development – Building structured, performant websites using HTML, CSS, and JavaScript.
                   </p>
                 </li>
 
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                    I can position your company brand.
+                  UI Implementation – Translating designs into functional, interactive interfaces.
                   </p>
                 </li>
 
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                    I can create Website for products of your company using UI /
+                  Brand-Aligned Sites – Developing websites that reflect your company’s identity and goals.
+                  </p>
+                </li>
+
+                <li className="services_modal-service">
+                  <i className="uil uil-check-circle services_modal-icon"></i>
+                  <p className="services_modal-info">
+                  Product Showcases – Creating dynamic web pages to highlight your products or services using UI /
                     UX Design and Mockups.
                   </p>
                 </li>
