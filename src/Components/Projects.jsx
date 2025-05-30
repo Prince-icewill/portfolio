@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
-import project1 from "../assets/project1.png"
- import work4 from "../../src/assets/work4.png"
+import project1 from "../assets/image.png"
+ import work4 from "../../src/assets/image2.png"
 
 const Projects = () => {
   return (
@@ -12,22 +12,20 @@ const Projects = () => {
       <div className="projects-con">
         <div className="first-pro">
           <img src={project1} className="work1" alt="" />
-          <h1 className="neurospark">NeuroSpark</h1>
+          <h1 className="neurospark">Sneakers</h1>
           <h3 className="note">
-            NeuroSpark is an innovative AI project designed to provide
-            intelligent solutions and automate tasks, enhancing user experience
-            and efficiency.
+          These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
           </h3>
-          <a href="" className="live-demo">Live Demo</a>
+          <a href="https://sneakers-git-main-icewills-projects.vercel.app/" className="live-demo">Live Demo</a>
         </div>
 
         <div className="second-pro">
             <img src={work4} className="work4" alt="" />
-            <h1 className="Ketus">KeAutos</h1>
+            <h1 className="Ketus">Faces&Lashes</h1>
             <h3 className="ketus-note">
-                KeAtus deals on selling of Automobile vehicles.
+            Faces and Lashes is a premium Nigerian lash brand built on the belief that every woman deserves to feel confident and beautiful. We understand that your lashes are more than just an accessory—they're an expression of your inner radiance and personal style.
             </h3>
-            <a href="https://ke-atus.vercel.app/" className="live-Demo">Live Demo</a>
+            <a href="https://facesnlashesng.vercel.app/" className="live-Demo">Live Demo</a>
         </div>
       </div>
     </section>
